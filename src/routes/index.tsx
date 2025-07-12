@@ -1,14 +1,10 @@
 import { createFileRoute } from "@tanstack/react-router";
+import HomePageView from "../pages/homepage-view";
 
 export const Route = createFileRoute("/")({
   component: Index,
 });
 
 function Index() {
-  console.log("Hello");
-  return (
-    <div className="p-2">
-      <h3>Welcome Home!</h3>
-    </div>
-  );
+  return <HomePageView />;
 }
