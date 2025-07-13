@@ -1,13 +1,13 @@
 import { Col, Row } from "antd";
-import HomePageContent from "./homepage-content";
 import HomePageAnchor from "./homepage-anchor";
+import HomePageContentMain from "./homepage-content-main";
 
 const HomePageMain = () => {
   return (
     <>
       <Row>
         <Col span={20}>
-          <HomePageContent />
+          <HomePageContentMain />
         </Col>
 
         <Col span={4}>

@@ -6,9 +6,9 @@ const HomePageAnchor = () => {
       bounds={50}
       items={[
         {
-          key: "part-1",
-          href: "#part-1",
-          title: "Part 1",
+          key: "bio",
+          href: "#bio",
+          title: "bio",
         },
         {
           key: "part-2",

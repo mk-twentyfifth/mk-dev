@@ -1,6 +1,11 @@
-const HomePageContent = () => {
+import Bio from "./homepage-content/bio";
+
+const HomePageContentMain = () => {
   return (
     <div>
+      <div id="bio">
+        <Bio />
+      </div>
       <div id="part-1" className="h-screen">
         Hello 1
       </div>
@@ -14,4 +19,4 @@ const HomePageContent = () => {
   );
 };
 
-export default HomePageContent;
+export default HomePageContentMain;
